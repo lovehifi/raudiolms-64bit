@@ -53,7 +53,7 @@ systemctl enable logitechmediaserver-git.service
 systemctl restart logitechmediaserver-git.service
 
 echo "Download Squeezelite and Install"
-wget https://raw.githubusercontent.com/lovehifi/raudiolms-32bit/main/sq64.tgz
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/sq64.tgz
 tar -xzf sq64.tgz --overwrite -C /opt/
 
 echo "Creating systemd unit /etc/systemd/system/sq.service"
