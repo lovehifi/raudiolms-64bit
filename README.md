@@ -1,4 +1,7 @@
-Install
+# LMS and Squeezelite (64bit) for rAudio (Arch Linux)
+Pi 4
+------------------------
+Install 
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
 
 ----------------------
