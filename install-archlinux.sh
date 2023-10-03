@@ -92,6 +92,6 @@ fi
     echo "Finished"
     #systemctl status sq.service
 #fi
-echo "Finished, LMS at port 9000"
+echo "Finished, the LMS at port 9000"
 systemctl status logitechmediaserver-git.service
 
