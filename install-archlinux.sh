@@ -83,7 +83,7 @@ else
 echo "File not found. Skipping..."
 fi
 
-echo "Do you want to Active Squeezelite? (Yes/No)"
+#echo "Do you want to Active Squeezelite? (Yes/No)"
 #read answer_sq
 #if [ "$answer_sq" = "Yes" ]; then
     systemctl daemon-reload
