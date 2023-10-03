@@ -5,6 +5,13 @@ Install
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
 
 ----------------------
+You can modify the DAC configuration in this file: /root/tidal-connect-docker/Docker/entrypoint.sh. However, the --playback-device "default" is set by rAudio, meaning rAudio is responsible for setting up the Sound Card, and Tidal Connect operates based on it with the value being "default."
+
+You can edit and change the DNS in this file: nano /root/tidal-connect-docker/Docker/.env.
+>
+-------------------
+
+
 >
 [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
 
