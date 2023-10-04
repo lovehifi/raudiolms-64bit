@@ -5,7 +5,7 @@ Install
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
 ---------
 
-### To play DSD via I2S:
+### To play DSD via I2S DAC:
 
 1./ Active the DSDPlayer plugin on LMS.
 >
