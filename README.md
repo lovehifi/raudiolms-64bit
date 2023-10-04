@@ -35,25 +35,7 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 >
 ExecStart=/opt/sq/squeezelite64 -o hw:1 -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:00:00:00
 >
------------------------------------
-To play DSD via I2S:
 
-1./ Install the DSDPlayer plugin.
-2./ File Type: For 2 DSD formats, select Disable - Not set to Native.
-3./ Check the sound card: run the command cat /proc/asound/cards.
->
-Example result:
-0 [HD05 ]: USB-Audio - REIYIN Bluetooth Audio WT- HD05 REIYIN Bluetooth Audio WT- HD05 at usb-0000:01:00.0-1.4, full speed
-1 [audioinjectorpi]: audioinjector-p - audioinjector-pi-soundcard audioinjector-pi-soundcard
-
-If the card in use is number 1.
->
-Edit config:
->
-> nano /opt/sq/sq.service
->
-Edit and assign 1 to -o hw:1 as follows:
-ExecStart=/opt/sq/squeezelite64 -o hw:1 -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:00:00:00
 >
 Restart:
 >
