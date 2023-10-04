@@ -4,20 +4,6 @@ Pi 4
 Install 
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
 ---------
-Option: Update the Squeezelite (1.9.9.1422-1)
-> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
-----------------------
-
-
-
->
-### [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
-
-----------------------
->
-### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
-----------------------
->
 
 ### To play DSD via I2S:
 
@@ -42,4 +28,20 @@ Restart:
 > systemctl daemon-reload && systemctl restart sq.service
 >
 > systemctl status sq.service
+---------
+Option: Update the Squeezelite (1.9.9.1422-1)
+> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
+----------------------
+
+
+
+>
+### [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
+
+----------------------
+>
+### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
+----------------------
+>
+
 
