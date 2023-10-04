@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ -d "/opt/sq" ]; then
+    echo "Stopping Squeezelite"
+    systemctl stop sq.service
+fi
+
+echo "Download Squeezelite 1.9.9.1422"
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/squeezelite64.tar.gz
+cp -f /opt/sq/squeezelite64 /opt/sq/squeezelite64.backup
+tar -xzf squeezelite64.tar.gz --overwrite -C /
+
+echo "Done"
+systemctl daemon-reload
+systemctl restart sq.service
+systemctl status sq.service
