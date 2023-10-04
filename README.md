@@ -3,7 +3,9 @@ Pi 4
 ------------------------
 Install 
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
-
+---------
+Update the Squeezelite (1.9.9.1422-1)
+> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
 ----------------------
 
 
