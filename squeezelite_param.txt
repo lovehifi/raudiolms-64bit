@@ -1,0 +1,36 @@
+### squeezelite configuration file 
+
+> Default options are commented. In order to enable an option, uncomment it
+> and fill the <param> value.
+> Consult the squeezelite manpage for details about different parameters.
+
+
+LOG_LEVEL="-d all=info"
+> LOG_FILE="-f <logfile>" 
+> SERVER="-s <server>[:<port>]"
+> OUTPUT_DEV="-o <output device>"
+> AUDIO_PARAMS="-a <audio_params>"
+> BUFFER="-b <buffer stream>:<output>"
+> CODEC="-c <codec1> [<codec 2>...]"
+> TIMEOUT="-C <timeout>"
+> EXCLUDE_CODEC="-e <codec1> [<codec2>...]"
+> GPIO="-G <Rpi GPIO>>:<H/L>" 
+> LIRC="-i [<filename>]" 
+> MAC="-m <mac addr>" 
+> MODEL_NAME="-M <modelname>" 
+> PLAYER_NAME="-n <name>" 
+> S_PLAYER_NAME="-N <filename>"
+> MIXER_DEV="-O <mixer device>" 
+> PRIORITY="-p <priority>" 
+> PID="-P <filename>" 
+> RATES="-r <rates>[:<delay>]" 
+> PWR_SCRIPT="-S <power script>" 
+> UPSAMPLING="-u  <params>" 
+> DELAY="-D [delay]"
+> VISUALISER="-v"
+> WAVE="-W"
+> UNMUTE="-U <control>"
+> VOLUME="-V <control>" 
+> LINEAR="-X"
+> MAX_RATE="-Z <rate>" 
+> OPTIONS="<replace with any extra parameter> > Don't use the -z (daemonize) parameter here
