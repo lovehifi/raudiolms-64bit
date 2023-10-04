@@ -25,7 +25,7 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 >
 2./ Setting File Types on LMS: DFF and DSF formats, select Disable - Not set to Native.
 >
-3./ Check the sound card number, and run the command: 
+3./ Check the sound card number, run this command: 
 >
 > cat /proc/asound/cards.
 >
