@@ -83,15 +83,15 @@ else
 echo "File not found. Skipping..."
 fi
 
-#echo "Do you want to Active Squeezelite? (Yes/No)"
-#read answer_sq
-#if [ "$answer_sq" = "Yes" ]; then
-    systemctl daemon-reload
-    systemctl enable sq.service
-    systemctl restart sq.service
-    echo "Finished"
-    #systemctl status sq.service
-#fi
+card=$(grep -oP '(?<=defaults.pcm.card ).*' /etc/asound.conf)
+options="-o hw:$card"
+echo "Your Sound Card Number:" $card
+sed -i "s|-o default|$options|g" /opt/sq/sq.service
+
+systemctl daemon-reload
+systemctl enable sq.service
+systemctl restart sq.service
+
 echo "Finished, the LMS at port 9000"
 systemctl status logitechmediaserver-git.service
 
