@@ -13,7 +13,7 @@ Install
 >
 3./ Check the sound card number, run this command: 
 >
-> cat /proc/asound/cards.
+> cat /proc/asound/cards
 >
 4./ If the card in use is number 1. Edit and assign 1 to -o hw:1 as follows:
 >
