@@ -18,7 +18,7 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 ### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
 ----------------------
 >
---------------
+
 ### To play DSD via I2S:
 
 1./ Active the DSDPlayer plugin on LMS.
