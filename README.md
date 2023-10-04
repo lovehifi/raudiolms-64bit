@@ -22,8 +22,11 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 ### To play DSD via I2S:
 
 1./ Active the DSDPlayer plugin on LMS.
+>
 2./ Setting File Types on LMS: DFF and DSF formats, select Disable - Not set to Native.
+>
 3./ Check the sound card number, and run the command: cat /proc/asound/cards.
+>
 4./ If the card in use is number 1. Edit and assign 1 to -o hw:1 as follows:
 >
 > nano /opt/sq/sq.service
