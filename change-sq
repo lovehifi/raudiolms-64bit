@@ -5,3 +5,4 @@ options="-o hw:$card"
 echo "Your Sound Card Number:" $card
 sed -i "s|-o default|$options|g" /opt/sq/sq.service
 
+# wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/change-sq | sh
