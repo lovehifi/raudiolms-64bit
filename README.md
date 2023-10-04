@@ -11,7 +11,7 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 
 
 >
-## [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
+### [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
 
 ----------------------
 >
