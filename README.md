@@ -39,7 +39,7 @@ ExecStart=/opt/sq/squeezelite64 -o hw:1 -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:
 >
 Restart:
 >
-> systemctl daemon-reload
-> systemctl restart sq.service
+> systemctl daemon-reload && systemctl restart sq.service
+>
 > systemctl status sq.service
 
