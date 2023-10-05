@@ -33,10 +33,6 @@ Option: Update the Squeezelite (1.9.9.1422-1)
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
 ----------------------
 
-### Tidal Connect for rAudio 64 bit (Pi 4)
-https://github.com/lovehifi/tidal-raudio-pi4/
->
-----------
 >
 ### [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
 
@@ -44,6 +40,9 @@ https://github.com/lovehifi/tidal-raudio-pi4/
 >
 ### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
 ----------------------
+>
+### Tidal Connect for rAudio 64 bit (Pi 4)
+https://github.com/lovehifi/tidal-raudio-pi4/
 >
 
 
