@@ -34,15 +34,19 @@ Restart:
 >
 > systemctl status sq.service
 ---------
-Option: Update the Squeezelite (1.9.9.1422-1)
+#### Option
+>
+>
+Another solution helps you change the card number automatically, which is better for you if you frequently switch DACs (e.g., switching from I2S to USB).
+> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
+>
+>
+Update the Squeezelite (1.9.9.1422-1)
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update-sq | sh
 ----------------------
 >
-Another solution helps you change the card number automatically, which is better for you if you frequently switch DACs (e.g., switching from I2S to USB).
 
-> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
->
-------------------
+
 >
 ### Tidal Connect for rAudio 64 bit (Pi 4)
 https://github.com/lovehifi/tidal-raudio-pi4/
