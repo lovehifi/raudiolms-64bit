@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "Download Squeezelite 1.9.9.1422"
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/squeezelite64.tar.gz
+cp -f /opt/sq/squeezelite64 /opt/sq/squeezelite64.backup
+tar -xzf squeezelite64.tar.gz --overwrite -C /
+
+systemctl daemon-reload
+systemctl restart sq.service
+echo "Finished"
+systemctl status sq.service
