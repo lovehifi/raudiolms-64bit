@@ -14,6 +14,7 @@ Install
 3./ Check the sound card number, run this command: 
 >
 > cat /proc/asound/cards
+>
 Sample: 
 0 [audioinjectorpi]: audioinjector-p - audioinjector-pi-soundcard
 
