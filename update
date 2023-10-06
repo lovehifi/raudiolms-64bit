@@ -5,12 +5,21 @@ if [ -d "/opt/sq" ]; then
     systemctl stop sq.service
 fi
 
-echo "Download Squeezelite 1.9.9.1422"
-wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/squeezelite64.tar.gz
-cp -f /opt/sq/squeezelite64 /opt/sq/squeezelite64.backup
-tar -xzf squeezelite64.tar.gz --overwrite -C /
+cd /tmp
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/sq.service
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/sq.sh
+cp -f /tmp/sq.service /opt/sq/
+cp -f /tmp/sq.sh /opt/sq/
+chmod -R 755 /opt/sq/sq.service
+chmod -R 755 /opt/sq/sq.sh
 
-echo "Done"
+
+#echo "Download Squeezelite 1.9.9.1422"
+#wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/squeezelite64.tar.gz
+#cp -f /opt/sq/squeezelite64 /opt/sq/squeezelite64.backup
+#tar -xzf squeezelite64.tar.gz --overwrite -C /
+
 systemctl daemon-reload
 systemctl restart sq.service
+echo "Finished"
 systemctl status sq.service
