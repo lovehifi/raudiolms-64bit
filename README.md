@@ -34,7 +34,7 @@ Restart:
 >
 > systemctl status sq.service
 ---------
-#### Option
+### Option
 >
 >
 Another solution helps you change the card number automatically, which is better for you if you frequently switch DACs (e.g., switching from I2S to USB).
