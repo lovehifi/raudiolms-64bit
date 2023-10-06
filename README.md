@@ -35,7 +35,7 @@ Restart:
 > systemctl status sq.service
 ---------
 Option: Update the Squeezelite (1.9.9.1422-1)
-> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update | sh
+> wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/update-sq | sh
 ----------------------
 
 >
