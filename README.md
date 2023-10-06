@@ -19,7 +19,7 @@ Sample:
 **0** [audioinjectorpi]: audioinjector-p - audioinjector-pi-soundcard
 
 >
-4./ If the card in use is number 1. Edit and assign 0 to -o hw:0 as follows:
+4./ If the card in use is number 0. Edit and assign 0 to -o hw:0 as follows:
 >
 > nano /opt/sq/sq.service
 >
