@@ -14,13 +14,16 @@ Install
 3./ Check the sound card number, run this command: 
 >
 > cat /proc/asound/cards
+Sample: 
+0 [audioinjectorpi]: audioinjector-p - audioinjector-pi-soundcard
+
 >
-4./ If the card in use is number 1. Edit and assign 1 to -o hw:1 as follows:
+4./ If the card in use is number 1. Edit and assign 0 to -o hw:0 as follows:
 >
 > nano /opt/sq/sq.service
 >
 Sample:
-ExecStart=/opt/sq/squeezelite64 -o hw:1 -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:00:00:00
+ExecStart=/opt/sq/squeezelite64 -o hw:0 -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:00:00:00
 >
 
 >
