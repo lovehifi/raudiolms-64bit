@@ -4,7 +4,9 @@ Pi 4
 Install 
 > wget -O - https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/install-archlinux.sh | sh
 ---------
-
+After the installation is complete, you can access LMS from your PC or phone using the web address http://ip:9000 or http://raudio:9000
+>
+--------
 ### To play DSD via I2S DAC:
 
 1./ Active the DSDPlayer plugin on LMS.
