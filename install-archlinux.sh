@@ -20,6 +20,21 @@ if [ -e /root/sq64* ]; then
     rm -f /root/sq64*
 fi
 
+if grep -q "dtparam=audio=on" /boot/config.txt; then
+sudo sed -i '/dtparam=audio=on/d' /boot/config.txt
+else
+echo "No dtparam=audio=on"
+fi
+
+echo "Off the sound onboard"
+grep -q "dtparam=audio=off" /boot/config.txt
+if [ $? -eq 0 ]; then
+echo "onboard off"
+else
+echo "dtparam=audio=off" | sudo tee -a /boot/config.txt
+echo "onboard to off"
+fi
+
 echo "Install Lib"
 
 rm -f /var/lib/pacman/sync/*
@@ -93,5 +108,8 @@ systemctl enable sq.service
 systemctl restart sq.service
 
 echo "Finished, the LMS at port 9000"
-systemctl status logitechmediaserver-git.service
+#systemctl status logitechmediaserver-git.service
+
+sleep 5
+reboot
 
