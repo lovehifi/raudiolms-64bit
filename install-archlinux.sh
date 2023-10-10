@@ -101,7 +101,7 @@ fi
 card=$(grep -oP '(?<=defaults.pcm.card ).*' /etc/asound.conf)
 options="-o hw:$card"
 echo "Your Sound Card Number:" $card
-sed -i "s|-o default|$options|g" /opt/sq/sq.service
+#sed -i "s|-o default|$options|g" /opt/sq/sq.service
 
 systemctl daemon-reload
 systemctl enable sq.service
