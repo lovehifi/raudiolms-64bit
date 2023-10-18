@@ -64,6 +64,14 @@ https://github.com/lovehifi/raudiolms-32bit
 ----------------------
 
 >
-### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
+### Why rAudio-LMS ?
+>
+https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F
 >
 
+----------------------
+>
+## Tips for using rAudio and LMS
+>
+https://github.com/lovehifi/addraudio
+>
