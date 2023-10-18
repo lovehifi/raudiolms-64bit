@@ -57,9 +57,12 @@ https://github.com/lovehifi/tidal-raudio-pi4/
 >
 ----------------------
 >
-### [LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3](https://github.com/lovehifi/raudiolms-32bit)
+### LMS and Squeezelite (32bit) for rAudio (Arch Linux) Pi 2, Pi 3
+>
+https://github.com/lovehifi/raudiolms-32bit
 
 ----------------------
+
 >
 ### [Why rAudio-LMS ?](https://github.com/lovehifi/raudiolms-32bit/wiki/Why-rAudio%E2%80%90LMS%3F) 
 >
