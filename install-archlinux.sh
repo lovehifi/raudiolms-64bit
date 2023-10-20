@@ -106,7 +106,7 @@ echo "Your Sound Card Number:" $card
 systemctl daemon-reload
 systemctl enable sq.service
 systemctl restart sq.service
-
+sudo localectl set-locale LANG=en_US.UTF-8
 echo "Finished, the LMS at port 9000"
 #systemctl status logitechmediaserver-git.service
 
