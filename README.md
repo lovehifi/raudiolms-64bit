@@ -8,7 +8,7 @@ Install
 ---------
 After the installation is complete, you can access LMS from your PC or phone using the web address http://ip:9000 or http://raudio:9000
 >
-Configure Squeezelite option (output, name...) in the /opt/sq/sq.service, sq.sh
+Configure Squeezelite option (output, name...) in the /etc/systemd/system/sq.service, sq.sh
 >
 --------
 ### To play DSD via I2S DAC:
@@ -27,7 +27,7 @@ Sample:
 >
 4./ If the card in use is number 0. Edit and assign 0 to -o hw:0 as follows:
 >
-> nano /opt/sq/sq.service
+> nano /etc/systemd/system/sq.service
 >
 Sample:
 ExecStart=/opt/sq/squeezelite64 -o **hw:0** -n SQ64-rAudio -s 127.0.0.1 -m 00:00:00:00:00:00 -W
