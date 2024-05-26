@@ -1,5 +1,7 @@
 #!/bin/sh
-sudo rm -f /var/lib/pacman/sync/* && sudo pacman -Syy --noconfirm && sudo pacman -S --noconfirm perl perl-io-socket-ssl perl-net-ssleay perl-uri faad2 libmad mpg123 flac libvorbis
+sudo rm -f /var/lib/pacman/sync/* && sudo pacman -Syy --noconfirm
+
+sudo pacman -S --noconfirm perl perl-cgi perl-dbi perl-digest-sha1 perl-html-parser perl-json perl-libwww perl-lwp-protocol-https perl-net-ssleay perl-test-pod perl-test-warn perl-xml-parser perl-io-socket-ssl perl-net-ssleay perl-uri faad2 libmad mpg123 flac libvorbis
 
 if [ -d "/opt/logitechmediaserver" ]; then
     echo "Stopping Logitech Media Server"
