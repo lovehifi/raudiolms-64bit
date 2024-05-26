@@ -15,4 +15,4 @@ fi
 
 cd /tmp && wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/logitechmediaserver-8.5.1-2-aarch64.pkg.tar.xz && pacman -U --noconfirm /tmp/logitechmediaserver-8.5.1-2-aarch64.pkg.tar.xz
 
-sudo systemctl daemon-reload && sudo systemctl enable logitechmediaserver-git.service && sudo systemctl restart logitechmediaserver-git.service
+sudo systemctl daemon-reload && sudo systemctl enable logitechmediaserver.service && sudo systemctl restart logitechmediaserver.service && sudo systemctl status logitechmediaserver.service
