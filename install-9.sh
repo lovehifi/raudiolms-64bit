@@ -40,4 +40,9 @@ sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable --now lyrionmusicserver
 
+cd /tmp
+wget https://raw.githubusercontent.com/lovehifi/raudiolms-64bit/main/squeezelite-aarch64.pkg.tar.xz
+sudo rm /var/lib/pacman/db.lck
+
+
 
